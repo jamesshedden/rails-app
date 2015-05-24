@@ -1,12 +1,16 @@
 <div class="books">
 
-  <h1>My books</h1>
+  <h1 class="u-margin-Bm">My books</h1>
 
   <% for book in @books do %>
-    <h2><%=link_to(h(book.title), book_path(book)) %></h2>
-    <p><%= book.thoughts %></p>
+    <div class="books__book">
+      <h2><%=link_to h(book.title), book_path(book), class: "books__book-link" %></h2>
+      <p><%= book.thoughts %></p>
+    </div>
   <% end %>
    
-  <%= will_paginate @books %>
+  <div class="page-nav"> 
+    <%= will_paginate @books %>
+  </div>
 
 </div>

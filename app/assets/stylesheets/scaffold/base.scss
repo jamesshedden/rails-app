@@ -1,3 +1,5 @@
+@import "variables";
+
 html {
   box-sizing: border-box;
 }
@@ -12,4 +14,24 @@ html, body {
 
 body {
   margin: 0;
+  padding: $space-xxlarge;
+  background: $color-body-background;
+}
+
+h1, h2, h3 {
+  font-family: $font-family-heading;
+  margin: 0;
+}
+
+p, a {
+  font-family: $font-family-base;
+}
+
+a {
+  text-decoration: none;
+  color: $color-link;
+}
+
+a:hover {
+  text-decoration: underline;
 }

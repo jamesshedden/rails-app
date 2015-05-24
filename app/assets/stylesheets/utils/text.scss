@@ -1,0 +1,27 @@
+@import "variables";
+
+// Text sizes
+
+h1, .u-text-xl {
+  font-size: $font-size-xlarge;
+}
+
+h2, .u-text-l {
+  font-size: $font-size-large;
+}
+
+h3, .u-text-m {
+  font-size: $font-size-medium;
+}
+
+h4, .u-text-s {
+  font-size: $font-size-small;
+}
+
+h5, .u-text-xs {
+  font-size: $font-size-xsmall;
+}
+
+h6, .u-text-xxs {
+  font-size: $font-size-xxsmall;
+}

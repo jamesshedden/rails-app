@@ -1,28 +1,40 @@
 <div class="books">
 
-  <h1><%= @book.title %></h1>   
-  <h2><%=link_to(h(@book.title), book_path(@book)) %></h2>
-  <p><%= @book.thoughts %></p>
+  <h1><%= @book.title %></h1>
+  <p class="books__thoughts">
+    <%= @book.thoughts %>
+  </p>
 
   <% if @comments %>
-    <h3>Comments</h3>
-   
-    <% for comment in @comments do %>
-      <p><strong><%=h(comment.author) %></strong>: <%=h comment.text %>
+    <div class="comments u-padding-Am u-margin-Bm">
+      <h3 class="comments__heading">Comments</h3>
+     
+      <% for comment in @comments do %>
+        <div class="comments__comment">
+          <p>
+            <%=h comment.text %><br>
+            <em class="u-text-xs u-margin-Txs">by <%=h(comment.author) %></em>
+          </p>
+        </div>
+      <% end %>
+    </div>
+  <% end %>
+
+  <div class="comment-box u-padding-Am">
+    <h3>Post Your Comment</h3>
+    <%= form_for([@book, Comment.new]) do |form| %>
+      <p><%= form.label :author %></p>
+      <p><%= form.text_field :author %></p>
+     
+      <p><%= form.label :text, 'Comment' %></p>
+      <p><%= form.text_area :text %></p>
+     
+      <%= form.submit 'Save' %>
     <% end %>
-  <% end %>
+  </div>
 
-  <h3>Post Your Comment</h3>
-  <%= form_for([@book, Comment.new]) do |form| %>
-    <p><%= form.label :author %></p>
-    <p><%= form.text_field :author %></p>
-   
-    <p><%= form.label :text, 'Comment' %></p>
-    <p><%= form.text_area :text %></p>
-   
-    <%= form.submit 'Save' %>
-  <% end %>
-
-  <p><%=link_to('Home', books_path) %></p>
+  <div class="page-nav">
+    <%=link_to('Home', books_path) %>
+  </div>
 
 </div>

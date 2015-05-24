@@ -1,0 +1,10 @@
+@import "variables";
+
+.page-nav {
+  padding-top: $space-medium;
+  text-align: center;
+}
+
+.page-nav, .page-nav a {
+  font-family: $font-family-heading;
+}

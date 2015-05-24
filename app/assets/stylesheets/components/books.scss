@@ -1,11 +1,28 @@
-// Place all the styles related to the Books controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+@import "variables";
 
 .books {
-  background: yellow;
-  padding: 50px;
+  background: $color-books-background;
+  padding: $space-xxlarge;
   box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
   margin: 0 auto;
   max-width: 500px;
+}
+
+.books__book {
+  background: $color-body-background;
+  padding: $space-medium;
+  margin-bottom: $space-small;
+}
+
+.books__book:nth-last-of-type(1) {
+  margin-bottom: 0;
+}
+
+.books__book-link {
+  font-family: $font-family-heading;
+}
+
+.books__thoughts {
+  font-family: $font-family-heading;
+  font-size: $font-size-large;
 }

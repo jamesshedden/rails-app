@@ -1,0 +1,27 @@
+$font-family-base:  Arial, sans-serif;
+$font-family-heading: "brandon-grotesque", $font-family-base;
+
+$font-size-xlarge: 36px;
+$font-size-large: 24px;
+$font-size-medium: 18px;
+$font-size-small: 15px;
+$font-size-xsmall: 14px;
+$font-size-xxsmall: 12px;
+
+$space-xxlarge: 40px;
+$space-xlarge: 33px;
+$space-large: 27px;
+$space-xmedium: 22px;
+$space-medium: 20px;
+$space-small: 12px;
+$space-xsmall: 9px;
+$space-xxsmall: 6px;
+
+$color-body-background: white;
+$color-books-background: #DDFFAE;
+
+$color-books-background-dark: darken($color-books-background, 40%);
+
+$color-link: #D75917;
+
+$color-comment-box-background: #17A8D7;
