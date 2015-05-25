@@ -8,9 +8,14 @@
       <p><%= book.thoughts %></p>
     </div>
   <% end %>
-   
+
   <div class="page-nav"> 
     <%= will_paginate @books %>
   </div>
 
+  <% if current_admin %>
+    <p>
+      Admin actions: <%= link_to 'New Book', new_book_path %>
+    </p>
+  <% end %>
 </div>

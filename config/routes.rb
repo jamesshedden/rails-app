@@ -57,4 +57,6 @@ Rails.application.routes.draw do
   resources :books do
     resource :comments, :only => :create
   end
+
+  resource :admin_session
 end

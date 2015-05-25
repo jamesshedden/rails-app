@@ -1,0 +1,23 @@
+<div class="books">
+
+  <h1 class="u-margin-Bm">New book</h1>
+
+  <%= form_for(@book) do |form| %>
+    <p>
+      <%= form.label :title %><br/>
+      <%= form.text_field :title %>
+    </p>
+   
+    <p>
+      <%= form.label :thoughts %><br/>
+      <%= form.text_area :thoughts %>
+    </p>
+   
+    <%= form.submit %>
+  <% end %>
+
+  <div class="page-nav">
+    <%=link_to('Home', books_path) %>
+  </div>
+  
+</div>

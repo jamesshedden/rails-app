@@ -33,6 +33,14 @@
     <% end %>
   </div>
 
+  <% if current_admin %>
+    <p>
+      Admin Actions: 
+      <%= link_to 'Edit', edit_book_path(@book) %> |
+      <%= link_to 'Delete', book_path(@book), :method => :delete, :confirm => "Are you sure?" %>
+    </p>
+  <% end %>
+
   <div class="page-nav">
     <%=link_to('Home', books_path) %>
   </div>
