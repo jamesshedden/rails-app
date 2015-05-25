@@ -59,4 +59,6 @@ Rails.application.routes.draw do
   end
 
   resource :admin_session
+
+  root :controller => 'books', :action => 'index'
 end
