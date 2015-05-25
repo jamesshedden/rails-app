@@ -1,0 +1,808 @@
+/* line 3, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/scaffold/base.scss */
+html {
+  box-sizing: border-box;
+}
+
+/* line 7, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/scaffold/base.scss */
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* line 11, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/scaffold/base.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 15, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/scaffold/base.scss */
+body {
+  margin: 0;
+  padding: 40px;
+  background: white;
+}
+
+/* line 21, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/scaffold/base.scss */
+h1, h2, h3 {
+  font-family: "brandon-grotesque", Arial, sans-serif;
+  margin: 0;
+}
+
+/* line 26, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/scaffold/base.scss */
+p, a {
+  font-family: Arial, sans-serif;
+}
+
+/* line 30, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/scaffold/base.scss */
+a {
+  text-decoration: none;
+  color: #d75917;
+}
+
+/* line 35, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/scaffold/base.scss */
+a:hover {
+  text-decoration: underline;
+}
+
+/* line 3, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/components/books.scss */
+.books {
+  background: #ddffae;
+  padding: 40px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+/* line 11, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/components/books.scss */
+.books__book {
+  background: white;
+  padding: 20px;
+  margin-bottom: 12px;
+}
+
+/* line 17, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/components/books.scss */
+.books__book:nth-last-of-type(1) {
+  margin-bottom: 0;
+}
+
+/* line 21, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/components/books.scss */
+.books__book-link {
+  font-family: "brandon-grotesque", Arial, sans-serif;
+}
+
+/* line 25, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/components/books.scss */
+.books__thoughts {
+  font-family: "brandon-grotesque", Arial, sans-serif;
+  font-size: 24px;
+}
+
+/* line 3, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/components/comments.scss */
+.comments {
+  background: white;
+}
+
+/* line 7, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/components/comments.scss */
+.comments__heading {
+  color: #17a8d7;
+}
+
+/* line 11, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/components/comments.scss */
+.comments__comment {
+  border-bottom: 1px solid #17a8d7;
+}
+
+/* line 15, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/components/comments.scss */
+.comments__comment:nth-last-child(1) {
+  border-bottom: 0;
+}
+
+/* line 3, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/components/comment-box.scss */
+.comment-box {
+  background: #17a8d7;
+  color: white;
+}
+
+/* line 3, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/components/page-nav.scss */
+.page-nav {
+  padding-top: 20px;
+  text-align: center;
+}
+
+/* line 8, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/components/page-nav.scss */
+.page-nav, .page-nav a {
+  font-family: "brandon-grotesque", Arial, sans-serif;
+}
+
+/* line 6, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Axxl {
+  padding: 40px;
+}
+
+/* line 10, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Axl {
+  padding: 33px;
+}
+
+/* line 14, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Al {
+  padding: 27px;
+}
+
+/* line 18, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Axm {
+  padding: 22px;
+}
+
+/* line 22, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Am {
+  padding: 20px;
+}
+
+/* line 26, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-As {
+  padding: 12px;
+}
+
+/* line 30, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Axs {
+  padding: 9px;
+}
+
+/* line 34, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Axxs {
+  padding: 6px;
+}
+
+/* line 38, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-An {
+  padding: 0;
+}
+
+/* line 44, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Axxl {
+  margin: 40px;
+}
+
+/* line 48, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Axl {
+  margin: 33px;
+}
+
+/* line 52, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Al {
+  margin: 27px;
+}
+
+/* line 56, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Axm {
+  margin: 22px;
+}
+
+/* line 60, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Am {
+  margin: 20px;
+}
+
+/* line 64, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-As {
+  margin: 12px;
+}
+
+/* line 68, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Axs {
+  margin: 9px;
+}
+
+/* line 72, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Axxs {
+  margin: 6px;
+}
+
+/* line 76, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-An {
+  margin: 0;
+}
+
+/* line 83, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Vxxl {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/* line 88, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Vxl {
+  margin-top: 33px;
+  margin-bottom: 33px;
+}
+
+/* line 93, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Vl {
+  margin-top: 27px;
+  margin-bottom: 27px;
+}
+
+/* line 98, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Vxm {
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+
+/* line 103, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Vm {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* line 108, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Vs {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+/* line 113, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Vxs {
+  margin-top: 9px;
+  margin-bottom: 9px;
+}
+
+/* line 118, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Vxxs {
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+/* line 123, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Vn {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* line 130, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Vxxl {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* line 135, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Vxl {
+  padding-top: 33px;
+  padding-bottom: 33px;
+}
+
+/* line 140, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Vl {
+  padding-top: 27px;
+  padding-bottom: 27px;
+}
+
+/* line 145, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Vxm {
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+
+/* line 150, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Vm {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* line 155, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Vs {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+/* line 160, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Vxs {
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+
+/* line 165, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Vxxs {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+/* line 170, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Vn {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* line 178, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Hxxl {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+/* line 183, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Hxl {
+  margin-left: 33px;
+  margin-right: 33px;
+}
+
+/* line 188, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Hl {
+  margin-left: 27px;
+  margin-right: 27px;
+}
+
+/* line 193, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Hxm {
+  margin-left: 22px;
+  margin-right: 22px;
+}
+
+/* line 198, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Hm {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* line 203, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Hs {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+/* line 208, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Hxs {
+  margin-left: 9px;
+  margin-right: 9px;
+}
+
+/* line 213, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Hxxs {
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+/* line 218, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Hn {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* line 225, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Hxxl {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+/* line 230, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Hxl {
+  padding-left: 33px;
+  padding-right: 33px;
+}
+
+/* line 235, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Hl {
+  padding-left: 27px;
+  padding-right: 27px;
+}
+
+/* line 240, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Hxm {
+  padding-left: 22px;
+  padding-right: 22px;
+}
+
+/* line 245, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Hm {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* line 250, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Hs {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* line 255, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Hxs {
+  padding-left: 9px;
+  padding-right: 9px;
+}
+
+/* line 260, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Hxxs {
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+/* line 265, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Hn {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 273, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Txxl {
+  margin-top: 40px;
+}
+
+/* line 277, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Txl {
+  margin-top: 33px;
+}
+
+/* line 281, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Tl {
+  margin-top: 27px;
+}
+
+/* line 285, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Txm {
+  margin-top: 22px;
+}
+
+/* line 289, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Tm {
+  margin-top: 20px;
+}
+
+/* line 293, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Ts {
+  margin-top: 12px;
+}
+
+/* line 297, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Txs {
+  margin-top: 9px;
+}
+
+/* line 301, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Txxs {
+  margin-top: 6px;
+}
+
+/* line 305, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Tn {
+  margin-top: 0;
+}
+
+/* line 311, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Txxl {
+  padding-top: 40px;
+}
+
+/* line 315, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Txl {
+  padding-top: 33px;
+}
+
+/* line 319, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Tl {
+  padding-top: 27px;
+}
+
+/* line 323, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Txm {
+  padding-top: 22px;
+}
+
+/* line 327, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Tm {
+  padding-top: 20px;
+}
+
+/* line 331, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Ts {
+  padding-top: 12px;
+}
+
+/* line 335, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Txs {
+  padding-top: 9px;
+}
+
+/* line 339, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Txxs {
+  padding-top: 6px;
+}
+
+/* line 343, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Tn {
+  padding-top: 0;
+}
+
+/* line 350, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Bxxl {
+  margin-bottom: 40px;
+}
+
+/* line 354, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Bxl {
+  margin-bottom: 33px;
+}
+
+/* line 358, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Bl {
+  margin-bottom: 27px;
+}
+
+/* line 362, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Bxm {
+  margin-bottom: 22px;
+}
+
+/* line 366, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Bm {
+  margin-bottom: 20px;
+}
+
+/* line 370, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Bs {
+  margin-bottom: 12px;
+}
+
+/* line 374, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Bxs {
+  margin-bottom: 9px;
+}
+
+/* line 378, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Bxxs {
+  margin-bottom: 6px;
+}
+
+/* line 382, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Bn {
+  margin-bottom: 0;
+}
+
+/* line 388, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Bxxl {
+  padding-bottom: 40px;
+}
+
+/* line 392, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Bxl {
+  padding-bottom: 33px;
+}
+
+/* line 396, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Bl {
+  padding-bottom: 27px;
+}
+
+/* line 400, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Bxm {
+  padding-bottom: 22px;
+}
+
+/* line 404, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Bm {
+  padding-bottom: 20px;
+}
+
+/* line 408, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Bs {
+  padding-bottom: 12px;
+}
+
+/* line 412, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Bxs {
+  padding-bottom: 9px;
+}
+
+/* line 416, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Bxxs {
+  padding-bottom: 6px;
+}
+
+/* line 420, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Bn {
+  padding-bottom: 0;
+}
+
+/* line 427, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Rxxl {
+  margin-right: 40px;
+}
+
+/* line 431, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Rxl {
+  margin-right: 33px;
+}
+
+/* line 435, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Rl {
+  margin-right: 27px;
+}
+
+/* line 439, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Rxm {
+  margin-right: 22px;
+}
+
+/* line 443, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Rm {
+  margin-right: 20px;
+}
+
+/* line 447, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Rs {
+  margin-right: 12px;
+}
+
+/* line 451, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Rxs {
+  margin-right: 9px;
+}
+
+/* line 455, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Rxxs {
+  margin-right: 6px;
+}
+
+/* line 459, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Rn {
+  margin-right: 0;
+}
+
+/* line 465, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Rxxl {
+  padding-right: 40px;
+}
+
+/* line 469, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Rxl {
+  padding-right: 33px;
+}
+
+/* line 473, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Rl {
+  padding-right: 27px;
+}
+
+/* line 477, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Rxm {
+  padding-right: 22px;
+}
+
+/* line 481, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Rm {
+  padding-right: 20px;
+}
+
+/* line 485, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Rs {
+  padding-right: 12px;
+}
+
+/* line 489, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Rxs {
+  padding-right: 9px;
+}
+
+/* line 493, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Rxxs {
+  padding-right: 6px;
+}
+
+/* line 497, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Rn {
+  padding-right: 0;
+}
+
+/* line 504, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Lxxl {
+  margin-left: 40px;
+}
+
+/* line 508, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Lxl {
+  margin-left: 33px;
+}
+
+/* line 512, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Ll {
+  margin-left: 27px;
+}
+
+/* line 516, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Lxm {
+  margin-left: 22px;
+}
+
+/* line 520, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Lm {
+  margin-left: 20px;
+}
+
+/* line 524, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Ls {
+  margin-left: 12px;
+}
+
+/* line 528, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Lxs {
+  margin-left: 9px;
+}
+
+/* line 532, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Lxxs {
+  margin-left: 6px;
+}
+
+/* line 536, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-margin-Ln {
+  margin-left: 0;
+}
+
+/* line 542, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Lxxl {
+  padding-left: 40px;
+}
+
+/* line 546, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Lxl {
+  padding-left: 33px;
+}
+
+/* line 550, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Ll {
+  padding-left: 27px;
+}
+
+/* line 554, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Lxm {
+  padding-left: 22px;
+}
+
+/* line 558, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Lm {
+  padding-left: 20px;
+}
+
+/* line 562, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Ls {
+  padding-left: 12px;
+}
+
+/* line 566, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Lxs {
+  padding-left: 9px;
+}
+
+/* line 570, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Lxxs {
+  padding-left: 6px;
+}
+
+/* line 574, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/space.scss */
+.u-padding-Ln {
+  padding-left: 0;
+}
+
+/* line 5, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/text.scss */
+h1, .u-text-xl {
+  font-size: 36px;
+}
+
+/* line 9, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/text.scss */
+h2, .u-text-l {
+  font-size: 24px;
+}
+
+/* line 13, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/text.scss */
+h3, .u-text-m {
+  font-size: 18px;
+}
+
+/* line 17, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/text.scss */
+h4, .u-text-s {
+  font-size: 15px;
+}
+
+/* line 21, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/text.scss */
+h5, .u-text-xs {
+  font-size: 14px;
+}
+
+/* line 25, /Users/James/Projects/Personal/Code/rails-app/app/assets/stylesheets/utils/text.scss */
+h6, .u-text-xxs {
+  font-size: 12px;
+}
