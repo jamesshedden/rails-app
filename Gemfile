@@ -40,4 +40,3 @@ gem 'spring',        group: :development
 
 gem 'will_paginate'
 gem 'authlogic'
-gem 'heroku'
